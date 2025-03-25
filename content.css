@@ -1,0 +1,4 @@
+/* 隐藏AI广告提示区域 */
+#s_new_search_guide {
+  display: none;
+}

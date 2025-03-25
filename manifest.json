@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Daily Use Config",
+    "version": "1.0",
+    "description": "日常配置集合",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.baidu.com/*"
+            ], // 匹配百度所有页面
+            "css": [
+                "content.css"
+            ], // 直接注入CSS文件
+            "run_at": "document_start" // 在页面加载初期注入
+        },
+        {
+            "matches": [
+                "*://www.52pojie.cn/*"
+            ],
+            "css": [
+                "wapj.css"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}

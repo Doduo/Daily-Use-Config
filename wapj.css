@@ -1,0 +1,20 @@
+/* 52pojie网站样式 */
+
+/* logo */
+.wp h2 a img {
+  display: none;
+}
+
+/* 隐藏用户头像 */
+.avatar a.avtm {
+  display: none;
+}
+/* 评论区 头像*/
+.avatar.avtm {
+  display: none;
+}
+
+#nv {
+  background: none !important;
+  background-color: grey !important;
+}
